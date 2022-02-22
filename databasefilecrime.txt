@@ -1,0 +1,111 @@
+create database crime;
+
+use crime;
+
+
+create table emp1 // only for understand this no use in project
+(
+	empid int,
+	empname varchar(20),
+	desg varchar(20),
+	age int	
+);
+
+create table login
+(
+
+    logrol varchar(60),
+    logid varchar(50),
+    email varchar(60),
+    logPassword varchar(60)
+  
+);
+
+create table reg
+(
+    crmid varchar(20),
+    crname varchar(20),
+    crfname varchar(20),
+    crmProof varchar(20),
+    dob varchar(20),
+    gender varchar(10),
+    address varchar(20),
+    natlty varchar(20),
+    crtype varchar(20),
+    crloc varchar(20),
+    crdatetm varchar(20),
+    evdnc varchar(20),
+    Idno varchar(30)
+);
+create table plcereg
+(
+    plceid varchar(20),
+    plcename varchar(20),
+    address varchar(20),
+    plceloc varchar(20)
+    
+);
+
+
+create table robbery
+(
+    Rid varchar(30),
+    RDate varchar(30),
+    RLoc varchar(20),
+    RItem varchar(60),
+   RSuspect varchar(50),
+    Rproof varchar(50)
+    
+);
+create table MURDER
+(
+    Mid varchar(30), 
+    Mname varchar(20),
+    MDate varchar(30),
+    MLoc varchar(30),
+    MSuspect varchar(20),
+    Mproof varchar(20)
+    
+);
+
+
+create table rape
+(
+    rid varchar(20),
+     rname varchar(20),
+    rDate varchar(30),
+    rLoc varchar(30),
+    rSuspect varchar(20),
+    rproof varchar(20)
+    
+);
+
+create table hitrun
+(
+    hid varchar(20),
+     hname varchar(20),
+    hDate varchar(30),
+    hLoc varchar(30),
+   hSuspect varchar(20),
+    hproof varchar(20)
+    
+);
+create table feedback
+(
+    username varchar(70),
+    emailId varchar(40),
+    contact varchar(20),
+    feedback varchar(120)
+);
+
+
+
+
+
+
+
+
+
+
+
+
